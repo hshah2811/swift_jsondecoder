@@ -1,0 +1,13 @@
+{
+    "familyName": "KHAN_FAMILY_WithoutMobileNumber",
+    "familyMembers": [
+                      {
+                      "name": "Salman",
+                      "age": 45
+                      },
+                      {
+                      "name": "Sharukh",
+                      "age": 48
+                      }
+                      ]
+}

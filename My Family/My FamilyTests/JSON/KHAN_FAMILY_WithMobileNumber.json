@@ -1,0 +1,23 @@
+{
+    "familyName": "KHAN_FAMILY_WithMobileNumber",
+    "familyMembers": [
+                      {
+                      "name": "Salman",
+                      "age": 45,
+                      "mobileNumber": [
+                                       {
+                                       "countryCode": "+91",
+                                       "number": 992323232
+                                       },
+                                       {
+                                       "countryCode": "+92",
+                                       "number": 3234234234
+                                       }
+                                       ]
+                      },
+                      {
+                      "name": "Sharukh",
+                      "age": 48
+                      }
+                      ]
+}

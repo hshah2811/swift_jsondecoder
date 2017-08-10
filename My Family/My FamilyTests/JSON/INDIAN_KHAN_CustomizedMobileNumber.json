@@ -1,0 +1,25 @@
+{
+    "familyName": "INDIAN_KHAN_CustomizedMobileNumber",
+    "familyMembers": [
+                      {
+                      "name": "Salman",
+                      "age": 45,
+                      "mobileNumber": [
+                                       {
+                                       "countryCode": "+91",
+                                       "number": 992323232,
+                                       "category": "HOME"
+                                       },
+                                       {
+                                       "countryCode": "+92",
+                                       "number": 3234234234,
+                                       "category": "WORK"
+                                       }
+                                       ]
+                      },
+                      {
+                      "name": "Sharukh",
+                      "age": 48
+                      }
+                      ]
+}

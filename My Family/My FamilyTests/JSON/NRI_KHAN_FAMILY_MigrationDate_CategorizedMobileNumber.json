@@ -1,0 +1,38 @@
+{
+    "familyName": "NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber",
+    "current_Country": "USA",
+    "familyMembers": [
+                      {
+                      "name": "Salman",
+                      "age": 45,
+                      "migrateDate": 1489276800,
+                      "mobileNumber": [
+                                       {
+                                       "countryCode": "+91",
+                                       "number": 992323232
+                                       },
+                                       {
+                                       "countryCode": "+92",
+                                       "number": 3234234234
+                                       }
+                                       ]
+                      },
+                      {
+                      "name": "Sharukh",
+                      "age": 48,
+                      "migrateDate": 1494547200,
+                      "mobileNumber": [
+                                       {
+                                       "countryCode": "+91",
+                                       "number": 2342342342,
+                                       "category": "HOME"
+                                       },
+                                       {
+                                       "countryCode": "+92",
+                                       "number": 444444444,
+                                       "category": "WORK"
+                                       }
+                                       ]
+                      }
+                      ]
+}

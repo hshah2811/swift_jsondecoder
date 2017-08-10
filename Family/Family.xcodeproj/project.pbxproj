@@ -10,6 +10,10 @@
 		EF1ED5E31F3C57F200AE0168 /* Family.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1ED5D91F3C57F200AE0168 /* Family.framework */; };
 		EF1ED5E81F3C57F200AE0168 /* FamilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED5E71F3C57F200AE0168 /* FamilyTests.swift */; };
 		EF1ED5EA1F3C57F200AE0168 /* Family.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1ED5DC1F3C57F200AE0168 /* Family.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF1ED5F41F3C58EE00AE0168 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED5F31F3C58EE00AE0168 /* Person.swift */; };
+		EF1ED5F61F3C590400AE0168 /* Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED5F51F3C590400AE0168 /* Family.swift */; };
+		EF1ED5F91F3C592200AE0168 /* FamilyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED5F81F3C592200AE0168 /* FamilyAPI.swift */; };
+		EF1ED5FB1F3C592E00AE0168 /* MobileNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED5FA1F3C592E00AE0168 /* MobileNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		EF1ED5E21F3C57F200AE0168 /* FamilyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FamilyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1ED5E71F3C57F200AE0168 /* FamilyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyTests.swift; sourceTree = "<group>"; };
 		EF1ED5E91F3C57F200AE0168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1ED5F31F3C58EE00AE0168 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		EF1ED5F51F3C590400AE0168 /* Family.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Family.swift; sourceTree = "<group>"; };
+		EF1ED5F81F3C592200AE0168 /* FamilyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyAPI.swift; sourceTree = "<group>"; };
+		EF1ED5FA1F3C592E00AE0168 /* MobileNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +79,12 @@
 		EF1ED5DB1F3C57F200AE0168 /* Family */ = {
 			isa = PBXGroup;
 			children = (
+				EF1ED5F71F3C591A00AE0168 /* API */,
 				EF1ED5DC1F3C57F200AE0168 /* Family.h */,
 				EF1ED5DD1F3C57F200AE0168 /* Info.plist */,
+				EF1ED5F31F3C58EE00AE0168 /* Person.swift */,
+				EF1ED5F51F3C590400AE0168 /* Family.swift */,
+				EF1ED5FA1F3C592E00AE0168 /* MobileNumber.swift */,
 			);
 			path = Family;
 			sourceTree = "<group>";
@@ -84,6 +96,14 @@
 				EF1ED5E91F3C57F200AE0168 /* Info.plist */,
 			);
 			path = FamilyTests;
+			sourceTree = "<group>";
+		};
+		EF1ED5F71F3C591A00AE0168 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ED5F81F3C592200AE0168 /* FamilyAPI.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +168,7 @@
 				TargetAttributes = {
 					EF1ED5D81F3C57F200AE0168 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 					};
 					EF1ED5E11F3C57F200AE0168 = {
 						CreatedOnToolsVersion = 9.0;
@@ -194,6 +215,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1ED5F91F3C592200AE0168 /* FamilyAPI.swift in Sources */,
+				EF1ED5F41F3C58EE00AE0168 /* Person.swift in Sources */,
+				EF1ED5FB1F3C592E00AE0168 /* MobileNumber.swift in Sources */,
+				EF1ED5F61F3C590400AE0168 /* Family.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +357,7 @@
 		EF1ED5EE1F3C57F200AE0168 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = AA4LHDPYCR;
@@ -344,6 +370,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.harshit.swiftexperiment.com.Family;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -352,6 +379,7 @@
 		EF1ED5EF1F3C57F200AE0168 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = AA4LHDPYCR;
@@ -372,6 +400,7 @@
 		EF1ED5F11F3C57F200AE0168 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = AA4LHDPYCR;
 				INFOPLIST_FILE = FamilyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -385,6 +414,7 @@
 		EF1ED5F21F3C57F200AE0168 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = AA4LHDPYCR;
 				INFOPLIST_FILE = FamilyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
