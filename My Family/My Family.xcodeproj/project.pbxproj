@@ -22,6 +22,7 @@
 		EF1ED6371F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED6331F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json */; };
 		EF1ED63B1F3C5A5100AE0168 /* Family.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1ED63A1F3C5A5100AE0168 /* Family.framework */; };
 		EF1ED63C1F3C5A5E00AE0168 /* Family.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1ED63A1F3C5A5100AE0168 /* Family.framework */; };
+		EF5DF2EE1F3DB6CF0086A221 /* TestGit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5DF2ED1F3DB6CF0086A221 /* TestGit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EF1ED6321F3C5A0400AE0168 /* KHAN_FAMILY_WithoutMobileNumber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KHAN_FAMILY_WithoutMobileNumber.json; sourceTree = "<group>"; };
 		EF1ED6331F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json; sourceTree = "<group>"; };
 		EF1ED63A1F3C5A5100AE0168 /* Family.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Family.framework; path = "../DerivedData/Build/Products/Debug-iphonesimulator/Family.framework"; sourceTree = "<group>"; };
+		EF5DF2ED1F3DB6CF0086A221 /* TestGit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				EF1ED60F1F3C599900AE0168 /* Assets.xcassets */,
 				EF1ED6111F3C599900AE0168 /* LaunchScreen.storyboard */,
 				EF1ED6141F3C599900AE0168 /* Info.plist */,
+				EF5DF2ED1F3DB6CF0086A221 /* TestGit.swift */,
 			);
 			path = "My Family";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				EF1ED62D1F3C59CA00AE0168 /* NRIFamily.swift in Sources */,
 				EF1ED60B1F3C599900AE0168 /* ViewController.swift in Sources */,
 				EF1ED62E1F3C59CA00AE0168 /* NRIPerson.swift in Sources */,
+				EF5DF2EE1F3DB6CF0086A221 /* TestGit.swift in Sources */,
 				EF1ED6091F3C599900AE0168 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
