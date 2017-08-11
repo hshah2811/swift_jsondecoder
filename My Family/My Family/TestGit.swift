@@ -10,5 +10,5 @@ import Foundation
 
 class TestGit
 {
-    
+    var newFeature:String?
 }
