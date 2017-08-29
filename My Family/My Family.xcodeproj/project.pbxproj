@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF17AAC01F53FD5D000409BD /* OneLevelSkipFamilyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AABF1F53FD5D000409BD /* OneLevelSkipFamilyRequest.swift */; };
+		EF17AAC61F54253D000409BD /* NestedStrcutureRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AAC51F54253D000409BD /* NestedStrcutureRequest.swift */; };
+		EF17AAC81F542FF6000409BD /* NestedRequestTestcases.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AAC71F542FF6000409BD /* NestedRequestTestcases.swift */; };
+		EF17AACA1F5435D4000409BD /* CustomResidenceAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AAC91F5435D4000409BD /* CustomResidenceAddress.swift */; };
+		EF17AACD1F543CC8000409BD /* CustomNestedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AACC1F543CC8000409BD /* CustomNestedRequest.swift */; };
 		EF1ED6091F3C599900AE0168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED6081F3C599900AE0168 /* AppDelegate.swift */; };
 		EF1ED60B1F3C599900AE0168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED60A1F3C599900AE0168 /* ViewController.swift */; };
 		EF1ED60E1F3C599900AE0168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED60C1F3C599900AE0168 /* Main.storyboard */; };
@@ -22,6 +27,8 @@
 		EF1ED6371F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED6331F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json */; };
 		EF1ED63B1F3C5A5100AE0168 /* Family.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1ED63A1F3C5A5100AE0168 /* Family.framework */; };
 		EF1ED63C1F3C5A5E00AE0168 /* Family.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1ED63A1F3C5A5100AE0168 /* Family.framework */; };
+		EFA5B7A41F4EB443003D6416 /* FamilyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5B7A31F4EB443003D6416 /* FamilyRequest.swift */; };
+		EFAACCC11F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAACCC01F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF17AABF1F53FD5D000409BD /* OneLevelSkipFamilyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLevelSkipFamilyRequest.swift; sourceTree = "<group>"; };
+		EF17AAC51F54253D000409BD /* NestedStrcutureRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedStrcutureRequest.swift; sourceTree = "<group>"; };
+		EF17AAC71F542FF6000409BD /* NestedRequestTestcases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedRequestTestcases.swift; sourceTree = "<group>"; };
+		EF17AAC91F5435D4000409BD /* CustomResidenceAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomResidenceAddress.swift; sourceTree = "<group>"; };
+		EF17AACC1F543CC8000409BD /* CustomNestedRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNestedRequest.swift; sourceTree = "<group>"; };
 		EF1ED6051F3C599900AE0168 /* My Family.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Family.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1ED6081F3C599900AE0168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF1ED60A1F3C599900AE0168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +65,8 @@
 		EF1ED6321F3C5A0400AE0168 /* KHAN_FAMILY_WithoutMobileNumber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KHAN_FAMILY_WithoutMobileNumber.json; sourceTree = "<group>"; };
 		EF1ED6331F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json; sourceTree = "<group>"; };
 		EF1ED63A1F3C5A5100AE0168 /* Family.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Family.framework; path = "../DerivedData/Build/Products/Debug-iphonesimulator/Family.framework"; sourceTree = "<group>"; };
+		EFA5B7A31F4EB443003D6416 /* FamilyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyRequest.swift; sourceTree = "<group>"; };
+		EFAACCC01F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFamilyTestWithRequestResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +89,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF17AAC41F53FEB2000409BD /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				EF17AACB1F54370F000409BD /* Model */,
+				EFAACCC01F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift */,
+				EF17AAC71F542FF6000409BD /* NestedRequestTestcases.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		EF17AACB1F54370F000409BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF17AAC91F5435D4000409BD /* CustomResidenceAddress.swift */,
+				EF17AACC1F543CC8000409BD /* CustomNestedRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EF1ED5FC1F3C599900AE0168 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +130,7 @@
 		EF1ED6071F3C599900AE0168 /* My Family */ = {
 			isa = PBXGroup;
 			children = (
+				EFA5B7A21F4EB433003D6416 /* Request */,
 				EF1ED6281F3C59CA00AE0168 /* NRI */,
 				EF1ED6081F3C599900AE0168 /* AppDelegate.swift */,
 				EF1ED60A1F3C599900AE0168 /* ViewController.swift */,
@@ -111,6 +145,7 @@
 		EF1ED61C1F3C599900AE0168 /* My FamilyTests */ = {
 			isa = PBXGroup;
 			children = (
+				EF17AAC41F53FEB2000409BD /* Request */,
 				EF1ED62F1F3C5A0400AE0168 /* JSON */,
 				EF1ED61D1F3C599900AE0168 /* My_FamilyTests.swift */,
 				EF1ED61F1F3C599900AE0168 /* Info.plist */,
@@ -145,6 +180,16 @@
 				EF1ED63A1F3C5A5100AE0168 /* Family.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFA5B7A21F4EB433003D6416 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				EFA5B7A31F4EB443003D6416 /* FamilyRequest.swift */,
+				EF17AABF1F53FD5D000409BD /* OneLevelSkipFamilyRequest.swift */,
+				EF17AAC51F54253D000409BD /* NestedStrcutureRequest.swift */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +301,10 @@
 				EF1ED62D1F3C59CA00AE0168 /* NRIFamily.swift in Sources */,
 				EF1ED60B1F3C599900AE0168 /* ViewController.swift in Sources */,
 				EF1ED62E1F3C59CA00AE0168 /* NRIPerson.swift in Sources */,
+				EF17AAC61F54253D000409BD /* NestedStrcutureRequest.swift in Sources */,
+				EF17AAC01F53FD5D000409BD /* OneLevelSkipFamilyRequest.swift in Sources */,
 				EF1ED6091F3C599900AE0168 /* AppDelegate.swift in Sources */,
+				EFA5B7A41F4EB443003D6416 /* FamilyRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +312,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFAACCC11F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift in Sources */,
 				EF1ED61E1F3C599900AE0168 /* My_FamilyTests.swift in Sources */,
+				EF17AACA1F5435D4000409BD /* CustomResidenceAddress.swift in Sources */,
+				EF17AACD1F543CC8000409BD /* CustomNestedRequest.swift in Sources */,
+				EF17AAC81F542FF6000409BD /* NestedRequestTestcases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

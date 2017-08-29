@@ -7,11 +7,14 @@
 //
 
 import UIKit
-
+import Family
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+//        FamilyAPI.init(jsonFilePath: URL(fileURLWithPath: "123")).fetchFamilyByRequest(classType: , request: <#T##Encodable?#>) { (<#Decodable?#>, <#Error?#>) in
+//            <#code#>
+//        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 

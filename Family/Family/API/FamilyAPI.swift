@@ -7,6 +7,7 @@
 //
 
 import Foundation
+
 public struct FamilyAPI
 {
     var responseJSONFilePath:URL
@@ -16,7 +17,26 @@ public struct FamilyAPI
         responseJSONFilePath = jsonFilePath
         jsonDecoder = decoder
     }
-    public func fetchFamilies<T:Decodable>(classType:T.Type, completionHandler: @escaping (_ families:T?,_ error:Error?) -> ())
+    public func fetchFamilyByRequest<request:Encodable,Response:Decodable>(classType:Response.Type, request:request? = nil, completionHandler: @escaping (_ families:Response?,_ error:Error?) -> ())
+    {
+        if let requestToSend = request
+        {
+            let encoder = JSONEncoder()
+            var jsonData:Data?
+            do {
+                encoder.outputFormatting = .prettyPrinted
+                jsonData = try encoder.encode(requestToSend)
+                print(String(data: jsonData!, encoding: .utf8)!)
+            }
+            catch let error
+            {
+                completionHandler(nil, error)
+                return
+            }
+        }
+        self.fetchFamilies(classType: classType, completionHandler: completionHandler)
+    }
+    public func fetchFamilies<T:Decodable>(classType:T.Type,completionHandler: @escaping (_ families:T?,_ error:Error?) -> ())
     {
         let responseData = FamilyAPI.getResponseJSONData(filePath: responseJSONFilePath)
         guard let jsonData = responseData.0 else
