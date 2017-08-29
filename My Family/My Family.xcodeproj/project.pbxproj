@@ -138,6 +138,7 @@
 				EF1ED60F1F3C599900AE0168 /* Assets.xcassets */,
 				EF1ED6111F3C599900AE0168 /* LaunchScreen.storyboard */,
 				EF1ED6141F3C599900AE0168 /* Info.plist */,
+				EF5DF2ED1F3DB6CF0086A221 /* TestGit.swift */,
 			);
 			path = "My Family";
 			sourceTree = "<group>";
