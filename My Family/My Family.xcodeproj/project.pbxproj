@@ -1,554 +1,553 @@
 // !$*UTF8*$!
 {
-    archiveVersion = 1;
-    classes = {
-    };
-    objectVersion = 48;
-    objects = {
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
 
 /* Begin PBXBuildFile section */
-        EF17AAC01F53FD5D000409BD /* OneLevelSkipFamilyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AABF1F53FD5D000409BD /* OneLevelSkipFamilyRequest.swift */; };
-        EF17AAC61F54253D000409BD /* NestedStrcutureRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AAC51F54253D000409BD /* NestedStrcutureRequest.swift */; };
-        EF17AAC81F542FF6000409BD /* NestedRequestTestcases.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AAC71F542FF6000409BD /* NestedRequestTestcases.swift */; };
-        EF17AACA1F5435D4000409BD /* CustomResidenceAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AAC91F5435D4000409BD /* CustomResidenceAddress.swift */; };
-        EF17AACD1F543CC8000409BD /* CustomNestedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AACC1F543CC8000409BD /* CustomNestedRequest.swift */; };
-        EF1ED6091F3C599900AE0168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED6081F3C599900AE0168 /* AppDelegate.swift */; };
-        EF1ED60B1F3C599900AE0168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED60A1F3C599900AE0168 /* ViewController.swift */; };
-        EF1ED60E1F3C599900AE0168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED60C1F3C599900AE0168 /* Main.storyboard */; };
-        EF1ED6101F3C599900AE0168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED60F1F3C599900AE0168 /* Assets.xcassets */; };
-        EF1ED6131F3C599900AE0168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED6111F3C599900AE0168 /* LaunchScreen.storyboard */; };
-        EF1ED61E1F3C599900AE0168 /* My_FamilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED61D1F3C599900AE0168 /* My_FamilyTests.swift */; };
-        EF1ED62C1F3C59CA00AE0168 /* CategorizedMobileNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED6291F3C59CA00AE0168 /* CategorizedMobileNumber.swift */; };
-        EF1ED62D1F3C59CA00AE0168 /* NRIFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED62A1F3C59CA00AE0168 /* NRIFamily.swift */; };
-        EF1ED62E1F3C59CA00AE0168 /* NRIPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED62B1F3C59CA00AE0168 /* NRIPerson.swift */; };
-        EF1ED6341F3C5A0400AE0168 /* INDIAN_KHAN_CustomizedMobileNumber.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED6301F3C5A0400AE0168 /* INDIAN_KHAN_CustomizedMobileNumber.json */; };
-        EF1ED6351F3C5A0400AE0168 /* KHAN_FAMILY_WithMobileNumber.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED6311F3C5A0400AE0168 /* KHAN_FAMILY_WithMobileNumber.json */; };
-        EF1ED6361F3C5A0400AE0168 /* KHAN_FAMILY_WithoutMobileNumber.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED6321F3C5A0400AE0168 /* KHAN_FAMILY_WithoutMobileNumber.json */; };
-        EF1ED6371F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED6331F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json */; };
-        EF1ED63B1F3C5A5100AE0168 /* Family.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1ED63A1F3C5A5100AE0168 /* Family.framework */; };
-        EF1ED63C1F3C5A5E00AE0168 /* Family.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1ED63A1F3C5A5100AE0168 /* Family.framework */; };
-        EFA5B7A41F4EB443003D6416 /* FamilyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5B7A31F4EB443003D6416 /* FamilyRequest.swift */; };
-        EFAACCC11F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAACCC01F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift */; };
+		EF17AAC01F53FD5D000409BD /* OneLevelSkipFamilyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AABF1F53FD5D000409BD /* OneLevelSkipFamilyRequest.swift */; };
+		EF17AAC61F54253D000409BD /* NestedStrcutureRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AAC51F54253D000409BD /* NestedStrcutureRequest.swift */; };
+		EF17AAC81F542FF6000409BD /* NestedRequestTestcases.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AAC71F542FF6000409BD /* NestedRequestTestcases.swift */; };
+		EF17AACA1F5435D4000409BD /* CustomResidenceAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AAC91F5435D4000409BD /* CustomResidenceAddress.swift */; };
+		EF17AACD1F543CC8000409BD /* CustomNestedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AACC1F543CC8000409BD /* CustomNestedRequest.swift */; };
+		EF1ED6091F3C599900AE0168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED6081F3C599900AE0168 /* AppDelegate.swift */; };
+		EF1ED60B1F3C599900AE0168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED60A1F3C599900AE0168 /* ViewController.swift */; };
+		EF1ED60E1F3C599900AE0168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED60C1F3C599900AE0168 /* Main.storyboard */; };
+		EF1ED6101F3C599900AE0168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED60F1F3C599900AE0168 /* Assets.xcassets */; };
+		EF1ED6131F3C599900AE0168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED6111F3C599900AE0168 /* LaunchScreen.storyboard */; };
+		EF1ED61E1F3C599900AE0168 /* My_FamilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED61D1F3C599900AE0168 /* My_FamilyTests.swift */; };
+		EF1ED62C1F3C59CA00AE0168 /* CategorizedMobileNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED6291F3C59CA00AE0168 /* CategorizedMobileNumber.swift */; };
+		EF1ED62D1F3C59CA00AE0168 /* NRIFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED62A1F3C59CA00AE0168 /* NRIFamily.swift */; };
+		EF1ED62E1F3C59CA00AE0168 /* NRIPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED62B1F3C59CA00AE0168 /* NRIPerson.swift */; };
+		EF1ED6341F3C5A0400AE0168 /* INDIAN_KHAN_CustomizedMobileNumber.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED6301F3C5A0400AE0168 /* INDIAN_KHAN_CustomizedMobileNumber.json */; };
+		EF1ED6351F3C5A0400AE0168 /* KHAN_FAMILY_WithMobileNumber.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED6311F3C5A0400AE0168 /* KHAN_FAMILY_WithMobileNumber.json */; };
+		EF1ED6361F3C5A0400AE0168 /* KHAN_FAMILY_WithoutMobileNumber.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED6321F3C5A0400AE0168 /* KHAN_FAMILY_WithoutMobileNumber.json */; };
+		EF1ED6371F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED6331F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json */; };
+		EF1ED63B1F3C5A5100AE0168 /* Family.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1ED63A1F3C5A5100AE0168 /* Family.framework */; };
+		EF1ED63C1F3C5A5E00AE0168 /* Family.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1ED63A1F3C5A5100AE0168 /* Family.framework */; };
+		EFA5B7A41F4EB443003D6416 /* FamilyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5B7A31F4EB443003D6416 /* FamilyRequest.swift */; };
+		EFAACCC11F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAACCC01F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-        EF1ED61A1F3C599900AE0168 /* PBXContainerItemProxy */ = {
-            isa = PBXContainerItemProxy;
-            containerPortal = EF1ED5FD1F3C599900AE0168 /* Project object */;
-            proxyType = 1;
-            remoteGlobalIDString = EF1ED6041F3C599900AE0168;
-            remoteInfo = "My Family";
-        };
+		EF1ED61A1F3C599900AE0168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1ED5FD1F3C599900AE0168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1ED6041F3C599900AE0168;
+			remoteInfo = "My Family";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-        EF17AABF1F53FD5D000409BD /* OneLevelSkipFamilyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLevelSkipFamilyRequest.swift; sourceTree = "<group>"; };
-        EF17AAC51F54253D000409BD /* NestedStrcutureRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedStrcutureRequest.swift; sourceTree = "<group>"; };
-        EF17AAC71F542FF6000409BD /* NestedRequestTestcases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedRequestTestcases.swift; sourceTree = "<group>"; };
-        EF17AAC91F5435D4000409BD /* CustomResidenceAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomResidenceAddress.swift; sourceTree = "<group>"; };
-        EF17AACC1F543CC8000409BD /* CustomNestedRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNestedRequest.swift; sourceTree = "<group>"; };
-        EF1ED6051F3C599900AE0168 /* My Family.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Family.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-        EF1ED6081F3C599900AE0168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-        EF1ED60A1F3C599900AE0168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-        EF1ED60D1F3C599900AE0168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-        EF1ED60F1F3C599900AE0168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-        EF1ED6121F3C599900AE0168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-        EF1ED6141F3C599900AE0168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        EF1ED6191F3C599900AE0168 /* My FamilyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My FamilyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-        EF1ED61D1F3C599900AE0168 /* My_FamilyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_FamilyTests.swift; sourceTree = "<group>"; };
-        EF1ED61F1F3C599900AE0168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        EF1ED6291F3C59CA00AE0168 /* CategorizedMobileNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorizedMobileNumber.swift; sourceTree = "<group>"; };
-        EF1ED62A1F3C59CA00AE0168 /* NRIFamily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRIFamily.swift; sourceTree = "<group>"; };
-        EF1ED62B1F3C59CA00AE0168 /* NRIPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRIPerson.swift; sourceTree = "<group>"; };
-        EF1ED6301F3C5A0400AE0168 /* INDIAN_KHAN_CustomizedMobileNumber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = INDIAN_KHAN_CustomizedMobileNumber.json; sourceTree = "<group>"; };
-        EF1ED6311F3C5A0400AE0168 /* KHAN_FAMILY_WithMobileNumber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KHAN_FAMILY_WithMobileNumber.json; sourceTree = "<group>"; };
-        EF1ED6321F3C5A0400AE0168 /* KHAN_FAMILY_WithoutMobileNumber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KHAN_FAMILY_WithoutMobileNumber.json; sourceTree = "<group>"; };
-        EF1ED6331F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json; sourceTree = "<group>"; };
-        EF1ED63A1F3C5A5100AE0168 /* Family.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Family.framework; path = "../DerivedData/Build/Products/Debug-iphonesimulator/Family.framework"; sourceTree = "<group>"; };
-        EFA5B7A31F4EB443003D6416 /* FamilyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyRequest.swift; sourceTree = "<group>"; };
-        EFAACCC01F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFamilyTestWithRequestResponse.swift; sourceTree = "<group>"; };
+		EF17AABF1F53FD5D000409BD /* OneLevelSkipFamilyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLevelSkipFamilyRequest.swift; sourceTree = "<group>"; };
+		EF17AAC51F54253D000409BD /* NestedStrcutureRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedStrcutureRequest.swift; sourceTree = "<group>"; };
+		EF17AAC71F542FF6000409BD /* NestedRequestTestcases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedRequestTestcases.swift; sourceTree = "<group>"; };
+		EF17AAC91F5435D4000409BD /* CustomResidenceAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomResidenceAddress.swift; sourceTree = "<group>"; };
+		EF17AACC1F543CC8000409BD /* CustomNestedRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNestedRequest.swift; sourceTree = "<group>"; };
+		EF1ED6051F3C599900AE0168 /* My Family.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Family.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1ED6081F3C599900AE0168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF1ED60A1F3C599900AE0168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF1ED60D1F3C599900AE0168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF1ED60F1F3C599900AE0168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1ED6121F3C599900AE0168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF1ED6141F3C599900AE0168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1ED6191F3C599900AE0168 /* My FamilyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My FamilyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1ED61D1F3C599900AE0168 /* My_FamilyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_FamilyTests.swift; sourceTree = "<group>"; };
+		EF1ED61F1F3C599900AE0168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1ED6291F3C59CA00AE0168 /* CategorizedMobileNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorizedMobileNumber.swift; sourceTree = "<group>"; };
+		EF1ED62A1F3C59CA00AE0168 /* NRIFamily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRIFamily.swift; sourceTree = "<group>"; };
+		EF1ED62B1F3C59CA00AE0168 /* NRIPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRIPerson.swift; sourceTree = "<group>"; };
+		EF1ED6301F3C5A0400AE0168 /* INDIAN_KHAN_CustomizedMobileNumber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = INDIAN_KHAN_CustomizedMobileNumber.json; sourceTree = "<group>"; };
+		EF1ED6311F3C5A0400AE0168 /* KHAN_FAMILY_WithMobileNumber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KHAN_FAMILY_WithMobileNumber.json; sourceTree = "<group>"; };
+		EF1ED6321F3C5A0400AE0168 /* KHAN_FAMILY_WithoutMobileNumber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KHAN_FAMILY_WithoutMobileNumber.json; sourceTree = "<group>"; };
+		EF1ED6331F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json; sourceTree = "<group>"; };
+		EF1ED63A1F3C5A5100AE0168 /* Family.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Family.framework; path = "../DerivedData/Build/Products/Debug-iphonesimulator/Family.framework"; sourceTree = "<group>"; };
+		EFA5B7A31F4EB443003D6416 /* FamilyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyRequest.swift; sourceTree = "<group>"; };
+		EFAACCC01F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFamilyTestWithRequestResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-        EF1ED6021F3C599900AE0168 /* Frameworks */ = {
-            isa = PBXFrameworksBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                EF1ED63B1F3C5A5100AE0168 /* Family.framework in Frameworks */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        EF1ED6161F3C599900AE0168 /* Frameworks */ = {
-            isa = PBXFrameworksBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                EF1ED63C1F3C5A5E00AE0168 /* Family.framework in Frameworks */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+		EF1ED6021F3C599900AE0168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1ED63B1F3C5A5100AE0168 /* Family.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1ED6161F3C599900AE0168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1ED63C1F3C5A5E00AE0168 /* Family.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-        EF17AAC41F53FEB2000409BD /* Request */ = {
-            isa = PBXGroup;
-            children = (
-                EF17AACB1F54370F000409BD /* Model */,
-                EFAACCC01F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift */,
-                EF17AAC71F542FF6000409BD /* NestedRequestTestcases.swift */,
-            );
-            path = Request;
-            sourceTree = "<group>";
-        };
-        EF17AACB1F54370F000409BD /* Model */ = {
-            isa = PBXGroup;
-            children = (
-                EF17AAC91F5435D4000409BD /* CustomResidenceAddress.swift */,
-                EF17AACC1F543CC8000409BD /* CustomNestedRequest.swift */,
-            );
-            path = Model;
-            sourceTree = "<group>";
-        };
-        EF1ED5FC1F3C599900AE0168 = {
-            isa = PBXGroup;
-            children = (
-                EF1ED6071F3C599900AE0168 /* My Family */,
-                EF1ED61C1F3C599900AE0168 /* My FamilyTests */,
-                EF1ED6061F3C599900AE0168 /* Products */,
-                EF1ED6391F3C5A5100AE0168 /* Frameworks */,
-            );
-            sourceTree = "<group>";
-        };
-        EF1ED6061F3C599900AE0168 /* Products */ = {
-            isa = PBXGroup;
-            children = (
-                EF1ED6051F3C599900AE0168 /* My Family.app */,
-                EF1ED6191F3C599900AE0168 /* My FamilyTests.xctest */,
-            );
-            name = Products;
-            sourceTree = "<group>";
-        };
-        EF1ED6071F3C599900AE0168 /* My Family */ = {
-            isa = PBXGroup;
-            children = (
-                EFA5B7A21F4EB433003D6416 /* Request */,
-                EF1ED6281F3C59CA00AE0168 /* NRI */,
-                EF1ED6081F3C599900AE0168 /* AppDelegate.swift */,
-                EF1ED60A1F3C599900AE0168 /* ViewController.swift */,
-                EF1ED60C1F3C599900AE0168 /* Main.storyboard */,
-                EF1ED60F1F3C599900AE0168 /* Assets.xcassets */,
-                EF1ED6111F3C599900AE0168 /* LaunchScreen.storyboard */,
-                EF1ED6141F3C599900AE0168 /* Info.plist */,
-                EF5DF2ED1F3DB6CF0086A221 /* TestGit.swift */,
-            );
-            path = "My Family";
-            sourceTree = "<group>";
-        };
-        EF1ED61C1F3C599900AE0168 /* My FamilyTests */ = {
-            isa = PBXGroup;
-            children = (
-                EF17AAC41F53FEB2000409BD /* Request */,
-                EF1ED62F1F3C5A0400AE0168 /* JSON */,
-                EF1ED61D1F3C599900AE0168 /* My_FamilyTests.swift */,
-                EF1ED61F1F3C599900AE0168 /* Info.plist */,
-            );
-            path = "My FamilyTests";
-            sourceTree = "<group>";
-        };
-        EF1ED6281F3C59CA00AE0168 /* NRI */ = {
-            isa = PBXGroup;
-            children = (
-                EF1ED6291F3C59CA00AE0168 /* CategorizedMobileNumber.swift */,
-                EF1ED62A1F3C59CA00AE0168 /* NRIFamily.swift */,
-                EF1ED62B1F3C59CA00AE0168 /* NRIPerson.swift */,
-            );
-            path = NRI;
-            sourceTree = "<group>";
-        };
-        EF1ED62F1F3C5A0400AE0168 /* JSON */ = {
-            isa = PBXGroup;
-            children = (
-                EF1ED6301F3C5A0400AE0168 /* INDIAN_KHAN_CustomizedMobileNumber.json */,
-                EF1ED6311F3C5A0400AE0168 /* KHAN_FAMILY_WithMobileNumber.json */,
-                EF1ED6321F3C5A0400AE0168 /* KHAN_FAMILY_WithoutMobileNumber.json */,
-                EF1ED6331F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json */,
-            );
-            path = JSON;
-            sourceTree = "<group>";
-        };
-        EF1ED6391F3C5A5100AE0168 /* Frameworks */ = {
-            isa = PBXGroup;
-            children = (
-                EF1ED63A1F3C5A5100AE0168 /* Family.framework */,
-            );
-            name = Frameworks;
-            sourceTree = "<group>";
-        };
-        EFA5B7A21F4EB433003D6416 /* Request */ = {
-            isa = PBXGroup;
-            children = (
-                EFA5B7A31F4EB443003D6416 /* FamilyRequest.swift */,
-                EF17AABF1F53FD5D000409BD /* OneLevelSkipFamilyRequest.swift */,
-                EF17AAC51F54253D000409BD /* NestedStrcutureRequest.swift */,
-            );
-            path = Request;
-            sourceTree = "<group>";
-        };
+		EF17AAC41F53FEB2000409BD /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				EF17AACB1F54370F000409BD /* Model */,
+				EFAACCC01F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift */,
+				EF17AAC71F542FF6000409BD /* NestedRequestTestcases.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		EF17AACB1F54370F000409BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF17AAC91F5435D4000409BD /* CustomResidenceAddress.swift */,
+				EF17AACC1F543CC8000409BD /* CustomNestedRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF1ED5FC1F3C599900AE0168 = {
+			isa = PBXGroup;
+			children = (
+				EF1ED6071F3C599900AE0168 /* My Family */,
+				EF1ED61C1F3C599900AE0168 /* My FamilyTests */,
+				EF1ED6061F3C599900AE0168 /* Products */,
+				EF1ED6391F3C5A5100AE0168 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1ED6061F3C599900AE0168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ED6051F3C599900AE0168 /* My Family.app */,
+				EF1ED6191F3C599900AE0168 /* My FamilyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1ED6071F3C599900AE0168 /* My Family */ = {
+			isa = PBXGroup;
+			children = (
+				EFA5B7A21F4EB433003D6416 /* Request */,
+				EF1ED6281F3C59CA00AE0168 /* NRI */,
+				EF1ED6081F3C599900AE0168 /* AppDelegate.swift */,
+				EF1ED60A1F3C599900AE0168 /* ViewController.swift */,
+				EF1ED60C1F3C599900AE0168 /* Main.storyboard */,
+				EF1ED60F1F3C599900AE0168 /* Assets.xcassets */,
+				EF1ED6111F3C599900AE0168 /* LaunchScreen.storyboard */,
+				EF1ED6141F3C599900AE0168 /* Info.plist */,
+			);
+			path = "My Family";
+			sourceTree = "<group>";
+		};
+		EF1ED61C1F3C599900AE0168 /* My FamilyTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF17AAC41F53FEB2000409BD /* Request */,
+				EF1ED62F1F3C5A0400AE0168 /* JSON */,
+				EF1ED61D1F3C599900AE0168 /* My_FamilyTests.swift */,
+				EF1ED61F1F3C599900AE0168 /* Info.plist */,
+			);
+			path = "My FamilyTests";
+			sourceTree = "<group>";
+		};
+		EF1ED6281F3C59CA00AE0168 /* NRI */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ED6291F3C59CA00AE0168 /* CategorizedMobileNumber.swift */,
+				EF1ED62A1F3C59CA00AE0168 /* NRIFamily.swift */,
+				EF1ED62B1F3C59CA00AE0168 /* NRIPerson.swift */,
+			);
+			path = NRI;
+			sourceTree = "<group>";
+		};
+		EF1ED62F1F3C5A0400AE0168 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ED6301F3C5A0400AE0168 /* INDIAN_KHAN_CustomizedMobileNumber.json */,
+				EF1ED6311F3C5A0400AE0168 /* KHAN_FAMILY_WithMobileNumber.json */,
+				EF1ED6321F3C5A0400AE0168 /* KHAN_FAMILY_WithoutMobileNumber.json */,
+				EF1ED6331F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		EF1ED6391F3C5A5100AE0168 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ED63A1F3C5A5100AE0168 /* Family.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFA5B7A21F4EB433003D6416 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				EFA5B7A31F4EB443003D6416 /* FamilyRequest.swift */,
+				EF17AABF1F53FD5D000409BD /* OneLevelSkipFamilyRequest.swift */,
+				EF17AAC51F54253D000409BD /* NestedStrcutureRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-        EF1ED6041F3C599900AE0168 /* My Family */ = {
-            isa = PBXNativeTarget;
-            buildConfigurationList = EF1ED6221F3C599900AE0168 /* Build configuration list for PBXNativeTarget "My Family" */;
-            buildPhases = (
-                EF1ED6011F3C599900AE0168 /* Sources */,
-                EF1ED6021F3C599900AE0168 /* Frameworks */,
-                EF1ED6031F3C599900AE0168 /* Resources */,
-            );
-            buildRules = (
-            );
-            dependencies = (
-            );
-            name = "My Family";
-            productName = "My Family";
-            productReference = EF1ED6051F3C599900AE0168 /* My Family.app */;
-            productType = "com.apple.product-type.application";
-        };
-        EF1ED6181F3C599900AE0168 /* My FamilyTests */ = {
-            isa = PBXNativeTarget;
-            buildConfigurationList = EF1ED6251F3C599900AE0168 /* Build configuration list for PBXNativeTarget "My FamilyTests" */;
-            buildPhases = (
-                EF1ED6151F3C599900AE0168 /* Sources */,
-                EF1ED6161F3C599900AE0168 /* Frameworks */,
-                EF1ED6171F3C599900AE0168 /* Resources */,
-            );
-            buildRules = (
-            );
-            dependencies = (
-                EF1ED61B1F3C599900AE0168 /* PBXTargetDependency */,
-            );
-            name = "My FamilyTests";
-            productName = "My FamilyTests";
-            productReference = EF1ED6191F3C599900AE0168 /* My FamilyTests.xctest */;
-            productType = "com.apple.product-type.bundle.unit-test";
-        };
+		EF1ED6041F3C599900AE0168 /* My Family */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1ED6221F3C599900AE0168 /* Build configuration list for PBXNativeTarget "My Family" */;
+			buildPhases = (
+				EF1ED6011F3C599900AE0168 /* Sources */,
+				EF1ED6021F3C599900AE0168 /* Frameworks */,
+				EF1ED6031F3C599900AE0168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Family";
+			productName = "My Family";
+			productReference = EF1ED6051F3C599900AE0168 /* My Family.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF1ED6181F3C599900AE0168 /* My FamilyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1ED6251F3C599900AE0168 /* Build configuration list for PBXNativeTarget "My FamilyTests" */;
+			buildPhases = (
+				EF1ED6151F3C599900AE0168 /* Sources */,
+				EF1ED6161F3C599900AE0168 /* Frameworks */,
+				EF1ED6171F3C599900AE0168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1ED61B1F3C599900AE0168 /* PBXTargetDependency */,
+			);
+			name = "My FamilyTests";
+			productName = "My FamilyTests";
+			productReference = EF1ED6191F3C599900AE0168 /* My FamilyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-        EF1ED5FD1F3C599900AE0168 /* Project object */ = {
-            isa = PBXProject;
-            attributes = {
-                LastSwiftUpdateCheck = 0900;
-                LastUpgradeCheck = 0900;
-                ORGANIZATIONNAME = Harshit;
-                TargetAttributes = {
-                    EF1ED6041F3C599900AE0168 = {
-                        CreatedOnToolsVersion = 9.0;
-                    };
-                    EF1ED6181F3C599900AE0168 = {
-                        CreatedOnToolsVersion = 9.0;
-                        TestTargetID = EF1ED6041F3C599900AE0168;
-                    };
-                };
-            };
-            buildConfigurationList = EF1ED6001F3C599900AE0168 /* Build configuration list for PBXProject "My Family" */;
-            compatibilityVersion = "Xcode 8.0";
-            developmentRegion = en;
-            hasScannedForEncodings = 0;
-            knownRegions = (
-                en,
-                Base,
-            );
-            mainGroup = EF1ED5FC1F3C599900AE0168;
-            productRefGroup = EF1ED6061F3C599900AE0168 /* Products */;
-            projectDirPath = "";
-            projectRoot = "";
-            targets = (
-                EF1ED6041F3C599900AE0168 /* My Family */,
-                EF1ED6181F3C599900AE0168 /* My FamilyTests */,
-            );
-        };
+		EF1ED5FD1F3C599900AE0168 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Harshit;
+				TargetAttributes = {
+					EF1ED6041F3C599900AE0168 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					EF1ED6181F3C599900AE0168 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = EF1ED6041F3C599900AE0168;
+					};
+				};
+			};
+			buildConfigurationList = EF1ED6001F3C599900AE0168 /* Build configuration list for PBXProject "My Family" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF1ED5FC1F3C599900AE0168;
+			productRefGroup = EF1ED6061F3C599900AE0168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1ED6041F3C599900AE0168 /* My Family */,
+				EF1ED6181F3C599900AE0168 /* My FamilyTests */,
+			);
+		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-        EF1ED6031F3C599900AE0168 /* Resources */ = {
-            isa = PBXResourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                EF1ED6131F3C599900AE0168 /* LaunchScreen.storyboard in Resources */,
-                EF1ED6101F3C599900AE0168 /* Assets.xcassets in Resources */,
-                EF1ED60E1F3C599900AE0168 /* Main.storyboard in Resources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        EF1ED6171F3C599900AE0168 /* Resources */ = {
-            isa = PBXResourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                EF1ED6351F3C5A0400AE0168 /* KHAN_FAMILY_WithMobileNumber.json in Resources */,
-                EF1ED6371F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json in Resources */,
-                EF1ED6341F3C5A0400AE0168 /* INDIAN_KHAN_CustomizedMobileNumber.json in Resources */,
-                EF1ED6361F3C5A0400AE0168 /* KHAN_FAMILY_WithoutMobileNumber.json in Resources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+		EF1ED6031F3C599900AE0168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1ED6131F3C599900AE0168 /* LaunchScreen.storyboard in Resources */,
+				EF1ED6101F3C599900AE0168 /* Assets.xcassets in Resources */,
+				EF1ED60E1F3C599900AE0168 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1ED6171F3C599900AE0168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1ED6351F3C5A0400AE0168 /* KHAN_FAMILY_WithMobileNumber.json in Resources */,
+				EF1ED6371F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json in Resources */,
+				EF1ED6341F3C5A0400AE0168 /* INDIAN_KHAN_CustomizedMobileNumber.json in Resources */,
+				EF1ED6361F3C5A0400AE0168 /* KHAN_FAMILY_WithoutMobileNumber.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-        EF1ED6011F3C599900AE0168 /* Sources */ = {
-            isa = PBXSourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                EF1ED62C1F3C59CA00AE0168 /* CategorizedMobileNumber.swift in Sources */,
-                EF1ED62D1F3C59CA00AE0168 /* NRIFamily.swift in Sources */,
-                EF1ED60B1F3C599900AE0168 /* ViewController.swift in Sources */,
-                EF1ED62E1F3C59CA00AE0168 /* NRIPerson.swift in Sources */,
-                EF17AAC61F54253D000409BD /* NestedStrcutureRequest.swift in Sources */,
-                EF17AAC01F53FD5D000409BD /* OneLevelSkipFamilyRequest.swift in Sources */,
-                EF1ED6091F3C599900AE0168 /* AppDelegate.swift in Sources */,
-                EFA5B7A41F4EB443003D6416 /* FamilyRequest.swift in Sources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
-        EF1ED6151F3C599900AE0168 /* Sources */ = {
-            isa = PBXSourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                EFAACCC11F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift in Sources */,
-                EF1ED61E1F3C599900AE0168 /* My_FamilyTests.swift in Sources */,
-                EF17AACA1F5435D4000409BD /* CustomResidenceAddress.swift in Sources */,
-                EF17AACD1F543CC8000409BD /* CustomNestedRequest.swift in Sources */,
-                EF17AAC81F542FF6000409BD /* NestedRequestTestcases.swift in Sources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+		EF1ED6011F3C599900AE0168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1ED62C1F3C59CA00AE0168 /* CategorizedMobileNumber.swift in Sources */,
+				EF1ED62D1F3C59CA00AE0168 /* NRIFamily.swift in Sources */,
+				EF1ED60B1F3C599900AE0168 /* ViewController.swift in Sources */,
+				EF1ED62E1F3C59CA00AE0168 /* NRIPerson.swift in Sources */,
+				EF17AAC61F54253D000409BD /* NestedStrcutureRequest.swift in Sources */,
+				EF17AAC01F53FD5D000409BD /* OneLevelSkipFamilyRequest.swift in Sources */,
+				EF1ED6091F3C599900AE0168 /* AppDelegate.swift in Sources */,
+				EFA5B7A41F4EB443003D6416 /* FamilyRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1ED6151F3C599900AE0168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAACCC11F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift in Sources */,
+				EF1ED61E1F3C599900AE0168 /* My_FamilyTests.swift in Sources */,
+				EF17AACA1F5435D4000409BD /* CustomResidenceAddress.swift in Sources */,
+				EF17AACD1F543CC8000409BD /* CustomNestedRequest.swift in Sources */,
+				EF17AAC81F542FF6000409BD /* NestedRequestTestcases.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-        EF1ED61B1F3C599900AE0168 /* PBXTargetDependency */ = {
-            isa = PBXTargetDependency;
-            target = EF1ED6041F3C599900AE0168 /* My Family */;
-            targetProxy = EF1ED61A1F3C599900AE0168 /* PBXContainerItemProxy */;
-        };
+		EF1ED61B1F3C599900AE0168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1ED6041F3C599900AE0168 /* My Family */;
+			targetProxy = EF1ED61A1F3C599900AE0168 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-        EF1ED60C1F3C599900AE0168 /* Main.storyboard */ = {
-            isa = PBXVariantGroup;
-            children = (
-                EF1ED60D1F3C599900AE0168 /* Base */,
-            );
-            name = Main.storyboard;
-            sourceTree = "<group>";
-        };
-        EF1ED6111F3C599900AE0168 /* LaunchScreen.storyboard */ = {
-            isa = PBXVariantGroup;
-            children = (
-                EF1ED6121F3C599900AE0168 /* Base */,
-            );
-            name = LaunchScreen.storyboard;
-            sourceTree = "<group>";
-        };
+		EF1ED60C1F3C599900AE0168 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1ED60D1F3C599900AE0168 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF1ED6111F3C599900AE0168 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1ED6121F3C599900AE0168 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-        EF1ED6201F3C599900AE0168 /* Debug */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_SEARCH_USER_PATHS = NO;
-                CLANG_ANALYZER_NONNULL = YES;
-                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-                CLANG_CXX_LIBRARY = "libc++";
-                CLANG_ENABLE_MODULES = YES;
-                CLANG_ENABLE_OBJC_ARC = YES;
-                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-                CLANG_WARN_BOOL_CONVERSION = YES;
-                CLANG_WARN_COMMA = YES;
-                CLANG_WARN_CONSTANT_CONVERSION = YES;
-                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-                CLANG_WARN_EMPTY_BODY = YES;
-                CLANG_WARN_ENUM_CONVERSION = YES;
-                CLANG_WARN_INFINITE_RECURSION = YES;
-                CLANG_WARN_INT_CONVERSION = YES;
-                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-                CLANG_WARN_STRICT_PROTOTYPES = YES;
-                CLANG_WARN_SUSPICIOUS_MOVE = YES;
-                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-                CLANG_WARN_UNREACHABLE_CODE = YES;
-                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-                CODE_SIGN_IDENTITY = "iPhone Developer";
-                COPY_PHASE_STRIP = NO;
-                DEBUG_INFORMATION_FORMAT = dwarf;
-                ENABLE_STRICT_OBJC_MSGSEND = YES;
-                ENABLE_TESTABILITY = YES;
-                GCC_C_LANGUAGE_STANDARD = gnu11;
-                GCC_DYNAMIC_NO_PIC = NO;
-                GCC_NO_COMMON_BLOCKS = YES;
-                GCC_OPTIMIZATION_LEVEL = 0;
-                GCC_PREPROCESSOR_DEFINITIONS = (
-                    "DEBUG=1",
-                    "$(inherited)",
-                );
-                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-                GCC_WARN_UNDECLARED_SELECTOR = YES;
-                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-                GCC_WARN_UNUSED_FUNCTION = YES;
-                GCC_WARN_UNUSED_VARIABLE = YES;
-                IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-                MTL_ENABLE_DEBUG_INFO = YES;
-                ONLY_ACTIVE_ARCH = YES;
-                SDKROOT = iphoneos;
-                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-            };
-            name = Debug;
-        };
-        EF1ED6211F3C599900AE0168 /* Release */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_SEARCH_USER_PATHS = NO;
-                CLANG_ANALYZER_NONNULL = YES;
-                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-                CLANG_CXX_LIBRARY = "libc++";
-                CLANG_ENABLE_MODULES = YES;
-                CLANG_ENABLE_OBJC_ARC = YES;
-                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-                CLANG_WARN_BOOL_CONVERSION = YES;
-                CLANG_WARN_COMMA = YES;
-                CLANG_WARN_CONSTANT_CONVERSION = YES;
-                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-                CLANG_WARN_EMPTY_BODY = YES;
-                CLANG_WARN_ENUM_CONVERSION = YES;
-                CLANG_WARN_INFINITE_RECURSION = YES;
-                CLANG_WARN_INT_CONVERSION = YES;
-                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-                CLANG_WARN_STRICT_PROTOTYPES = YES;
-                CLANG_WARN_SUSPICIOUS_MOVE = YES;
-                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-                CLANG_WARN_UNREACHABLE_CODE = YES;
-                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-                CODE_SIGN_IDENTITY = "iPhone Developer";
-                COPY_PHASE_STRIP = NO;
-                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-                ENABLE_NS_ASSERTIONS = NO;
-                ENABLE_STRICT_OBJC_MSGSEND = YES;
-                GCC_C_LANGUAGE_STANDARD = gnu11;
-                GCC_NO_COMMON_BLOCKS = YES;
-                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-                GCC_WARN_UNDECLARED_SELECTOR = YES;
-                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-                GCC_WARN_UNUSED_FUNCTION = YES;
-                GCC_WARN_UNUSED_VARIABLE = YES;
-                IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-                MTL_ENABLE_DEBUG_INFO = NO;
-                SDKROOT = iphoneos;
-                SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-                VALIDATE_PRODUCT = YES;
-            };
-            name = Release;
-        };
-        EF1ED6231F3C599900AE0168 /* Debug */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                DEVELOPMENT_TEAM = AA4LHDPYCR;
-                INFOPLIST_FILE = "My Family/Info.plist";
-                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-                PRODUCT_BUNDLE_IDENTIFIER = "com.harshit.swiftexperiment.com.My-Family";
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.0;
-                TARGETED_DEVICE_FAMILY = "1,2";
-            };
-            name = Debug;
-        };
-        EF1ED6241F3C599900AE0168 /* Release */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                DEVELOPMENT_TEAM = AA4LHDPYCR;
-                INFOPLIST_FILE = "My Family/Info.plist";
-                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-                PRODUCT_BUNDLE_IDENTIFIER = "com.harshit.swiftexperiment.com.My-Family";
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.0;
-                TARGETED_DEVICE_FAMILY = "1,2";
-            };
-            name = Release;
-        };
-        EF1ED6261F3C599900AE0168 /* Debug */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-                BUNDLE_LOADER = "$(TEST_HOST)";
-                DEVELOPMENT_TEAM = AA4LHDPYCR;
-                INFOPLIST_FILE = "My FamilyTests/Info.plist";
-                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-                PRODUCT_BUNDLE_IDENTIFIER = "com.harshit.swiftexperiment.com.My-FamilyTests";
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.0;
-                TARGETED_DEVICE_FAMILY = "1,2";
-                TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Family.app/My Family";
-            };
-            name = Debug;
-        };
-        EF1ED6271F3C599900AE0168 /* Release */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-                BUNDLE_LOADER = "$(TEST_HOST)";
-                DEVELOPMENT_TEAM = AA4LHDPYCR;
-                INFOPLIST_FILE = "My FamilyTests/Info.plist";
-                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-                PRODUCT_BUNDLE_IDENTIFIER = "com.harshit.swiftexperiment.com.My-FamilyTests";
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.0;
-                TARGETED_DEVICE_FAMILY = "1,2";
-                TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Family.app/My Family";
-            };
-            name = Release;
-        };
+		EF1ED6201F3C599900AE0168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF1ED6211F3C599900AE0168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1ED6231F3C599900AE0168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AA4LHDPYCR;
+				INFOPLIST_FILE = "My Family/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harshit.swiftexperiment.com.My-Family";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF1ED6241F3C599900AE0168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AA4LHDPYCR;
+				INFOPLIST_FILE = "My Family/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harshit.swiftexperiment.com.My-Family";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF1ED6261F3C599900AE0168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AA4LHDPYCR;
+				INFOPLIST_FILE = "My FamilyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harshit.swiftexperiment.com.My-FamilyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Family.app/My Family";
+			};
+			name = Debug;
+		};
+		EF1ED6271F3C599900AE0168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AA4LHDPYCR;
+				INFOPLIST_FILE = "My FamilyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harshit.swiftexperiment.com.My-FamilyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Family.app/My Family";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-        EF1ED6001F3C599900AE0168 /* Build configuration list for PBXProject "My Family" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                EF1ED6201F3C599900AE0168 /* Debug */,
-                EF1ED6211F3C599900AE0168 /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
-        EF1ED6221F3C599900AE0168 /* Build configuration list for PBXNativeTarget "My Family" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                EF1ED6231F3C599900AE0168 /* Debug */,
-                EF1ED6241F3C599900AE0168 /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
-        EF1ED6251F3C599900AE0168 /* Build configuration list for PBXNativeTarget "My FamilyTests" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                EF1ED6261F3C599900AE0168 /* Debug */,
-                EF1ED6271F3C599900AE0168 /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
+		EF1ED6001F3C599900AE0168 /* Build configuration list for PBXProject "My Family" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1ED6201F3C599900AE0168 /* Debug */,
+				EF1ED6211F3C599900AE0168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1ED6221F3C599900AE0168 /* Build configuration list for PBXNativeTarget "My Family" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1ED6231F3C599900AE0168 /* Debug */,
+				EF1ED6241F3C599900AE0168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1ED6251F3C599900AE0168 /* Build configuration list for PBXNativeTarget "My FamilyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1ED6261F3C599900AE0168 /* Debug */,
+				EF1ED6271F3C599900AE0168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
-    };
-    rootObject = EF1ED5FD1F3C599900AE0168 /* Project object */;
+	};
+	rootObject = EF1ED5FD1F3C599900AE0168 /* Project object */;
 }
