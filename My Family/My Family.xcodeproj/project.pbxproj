@@ -27,6 +27,8 @@
 		EF1ED6371F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json in Resources */ = {isa = PBXBuildFile; fileRef = EF1ED6331F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json */; };
 		EF1ED63B1F3C5A5100AE0168 /* Family.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1ED63A1F3C5A5100AE0168 /* Family.framework */; };
 		EF1ED63C1F3C5A5E00AE0168 /* Family.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1ED63A1F3C5A5100AE0168 /* Family.framework */; };
+		EF715F421F554A8100C11975 /* FamilyDetailsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF715F411F554A8100C11975 /* FamilyDetailsRequest.swift */; };
+		EF715F451F554B2F00C11975 /* RequestBodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF715F441F554B2F00C11975 /* RequestBodyTests.swift */; };
 		EFA5B7A41F4EB443003D6416 /* FamilyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5B7A31F4EB443003D6416 /* FamilyRequest.swift */; };
 		EFAACCC11F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAACCC01F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift */; };
 /* End PBXBuildFile section */
@@ -65,6 +67,8 @@
 		EF1ED6321F3C5A0400AE0168 /* KHAN_FAMILY_WithoutMobileNumber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = KHAN_FAMILY_WithoutMobileNumber.json; sourceTree = "<group>"; };
 		EF1ED6331F3C5A0400AE0168 /* NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NRI_KHAN_FAMILY_MigrationDate_CategorizedMobileNumber.json; sourceTree = "<group>"; };
 		EF1ED63A1F3C5A5100AE0168 /* Family.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Family.framework; path = "../DerivedData/Build/Products/Debug-iphonesimulator/Family.framework"; sourceTree = "<group>"; };
+		EF715F411F554A8100C11975 /* FamilyDetailsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyDetailsRequest.swift; sourceTree = "<group>"; };
+		EF715F441F554B2F00C11975 /* RequestBodyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBodyTests.swift; sourceTree = "<group>"; };
 		EFA5B7A31F4EB443003D6416 /* FamilyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyRequest.swift; sourceTree = "<group>"; };
 		EFAACCC01F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFamilyTestWithRequestResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +96,7 @@
 		EF17AAC41F53FEB2000409BD /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				EF715F431F554B1C00C11975 /* IRequestBodyTest */,
 				EF17AACB1F54370F000409BD /* Model */,
 				EFAACCC01F4AC3D6008B9A18 /* MyFamilyTestWithRequestResponse.swift */,
 				EF17AAC71F542FF6000409BD /* NestedRequestTestcases.swift */,
@@ -182,9 +187,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EF715F401F554A6900C11975 /* IRequestBody */ = {
+			isa = PBXGroup;
+			children = (
+				EF715F411F554A8100C11975 /* FamilyDetailsRequest.swift */,
+			);
+			path = IRequestBody;
+			sourceTree = "<group>";
+		};
+		EF715F431F554B1C00C11975 /* IRequestBodyTest */ = {
+			isa = PBXGroup;
+			children = (
+				EF715F441F554B2F00C11975 /* RequestBodyTests.swift */,
+			);
+			path = IRequestBodyTest;
+			sourceTree = "<group>";
+		};
 		EFA5B7A21F4EB433003D6416 /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				EF715F401F554A6900C11975 /* IRequestBody */,
 				EFA5B7A31F4EB443003D6416 /* FamilyRequest.swift */,
 				EF17AABF1F53FD5D000409BD /* OneLevelSkipFamilyRequest.swift */,
 				EF17AAC51F54253D000409BD /* NestedStrcutureRequest.swift */,
@@ -299,6 +321,7 @@
 			files = (
 				EF1ED62C1F3C59CA00AE0168 /* CategorizedMobileNumber.swift in Sources */,
 				EF1ED62D1F3C59CA00AE0168 /* NRIFamily.swift in Sources */,
+				EF715F421F554A8100C11975 /* FamilyDetailsRequest.swift in Sources */,
 				EF1ED60B1F3C599900AE0168 /* ViewController.swift in Sources */,
 				EF1ED62E1F3C59CA00AE0168 /* NRIPerson.swift in Sources */,
 				EF17AAC61F54253D000409BD /* NestedStrcutureRequest.swift in Sources */,
@@ -317,6 +340,7 @@
 				EF17AACA1F5435D4000409BD /* CustomResidenceAddress.swift in Sources */,
 				EF17AACD1F543CC8000409BD /* CustomNestedRequest.swift in Sources */,
 				EF17AAC81F542FF6000409BD /* NestedRequestTestcases.swift in Sources */,
+				EF715F451F554B2F00C11975 /* RequestBodyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
