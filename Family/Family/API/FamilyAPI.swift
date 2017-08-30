@@ -56,20 +56,20 @@ public struct FamilyAPI
             }
         }
         
-        //NOT WORKING.
-        if let _ = self.encodableRequestBody?.encodableBody
-        {
-            var jsonData:Data
-            do {
-                jsonData = try self.encodeBody(_requestData: self.encodableRequestBody?.encodableBody)
-                print(jsonData)
-            }
-            catch let error
-            {
-                completionHandler(nil, error)
-                return
-            }
-        }
+//        //NOT WORKING.
+//        if let _ = self.encodableRequestBody?.encodableBody
+//        {
+//            var jsonData:Data
+//            do {
+//                jsonData = try self.encodeBody(_requestData: self.encodableRequestBody?.encodableBody)
+//                print(jsonData)
+//            }
+//            catch let error
+//            {
+//                completionHandler(nil, error)
+//                return
+//            }
+//        }
         self.fetchFamilies(classType: classType, completionHandler: completionHandler)
     }
     public func fetchFamilies<T:Decodable>(classType:T.Type,completionHandler: @escaping (_ families:T?,_ error:Error?) -> ())
