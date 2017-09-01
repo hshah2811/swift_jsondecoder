@@ -14,6 +14,9 @@
 		EF1ED5F61F3C590400AE0168 /* Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED5F51F3C590400AE0168 /* Family.swift */; };
 		EF1ED5F91F3C592200AE0168 /* FamilyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED5F81F3C592200AE0168 /* FamilyAPI.swift */; };
 		EF1ED5FB1F3C592E00AE0168 /* MobileNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ED5FA1F3C592E00AE0168 /* MobileNumber.swift */; };
+		EF7D1AD01F59471900669E49 /* CardTokenResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = EF7D1ACF1F59471900669E49 /* CardTokenResponse.json */; };
+		EF7D1AD31F59473700669E49 /* PaymentCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7D1AD21F59473700669E49 /* PaymentCards.swift */; };
+		EF7D1AD51F59A0AE00669E49 /* GetCheckoutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7D1AD41F59A0AE00669E49 /* GetCheckoutData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 		EF1ED5F51F3C590400AE0168 /* Family.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Family.swift; sourceTree = "<group>"; };
 		EF1ED5F81F3C592200AE0168 /* FamilyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyAPI.swift; sourceTree = "<group>"; };
 		EF1ED5FA1F3C592E00AE0168 /* MobileNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNumber.swift; sourceTree = "<group>"; };
+		EF7D1ACF1F59471900669E49 /* CardTokenResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CardTokenResponse.json; sourceTree = "<group>"; };
+		EF7D1AD21F59473700669E49 /* PaymentCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCards.swift; sourceTree = "<group>"; };
+		EF7D1AD41F59A0AE00669E49 /* GetCheckoutData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCheckoutData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,8 @@
 		EF1ED5E61F3C57F200AE0168 /* FamilyTests */ = {
 			isa = PBXGroup;
 			children = (
+				EF7D1AD11F59472500669E49 /* PaymentCards */,
+				EF7D1ACE1F5946FC00669E49 /* JSON */,
 				EF1ED5E71F3C57F200AE0168 /* FamilyTests.swift */,
 				EF1ED5E91F3C57F200AE0168 /* Info.plist */,
 			);
@@ -104,6 +112,23 @@
 				EF1ED5F81F3C592200AE0168 /* FamilyAPI.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		EF7D1ACE1F5946FC00669E49 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				EF7D1ACF1F59471900669E49 /* CardTokenResponse.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		EF7D1AD11F59472500669E49 /* PaymentCards */ = {
+			isa = PBXGroup;
+			children = (
+				EF7D1AD21F59473700669E49 /* PaymentCards.swift */,
+				EF7D1AD41F59A0AE00669E49 /* GetCheckoutData.swift */,
+			);
+			path = PaymentCards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7D1AD01F59471900669E49 /* CardTokenResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +252,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7D1AD31F59473700669E49 /* PaymentCards.swift in Sources */,
 				EF1ED5E81F3C57F200AE0168 /* FamilyTests.swift in Sources */,
+				EF7D1AD51F59A0AE00669E49 /* GetCheckoutData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

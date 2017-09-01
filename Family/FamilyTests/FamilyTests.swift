@@ -10,9 +10,12 @@ import XCTest
 @testable import Family
 
 class FamilyTests: XCTestCase {
-    
+    var bundle:Bundle!
     override func setUp() {
         super.setUp()
+        bundle = Bundle(for: type(of: self))
+            
+       
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
@@ -21,16 +24,29 @@ class FamilyTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testPaymentCards() {
+        
+        guard let filePath = bundle.path(forResource: "CardTokenResponse", ofType: "json") else
+        {
+            XCTFail("FilePathNotFound")
+            return
+        }
+        
+        let url = URL(fileURLWithPath: filePath)
+        FamilyAPI(jsonFilePath: url).fetchFamilies(classType: GetCheckoutData.self) { (cardTokenData, error) in
+            if let _ = error
+            {
+                XCTAssert(false)
+            }
+            else
+            {
+                print(cardTokenData)
+                XCTAssert(true)
+                
+            }
+        }
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
     }
     
 }

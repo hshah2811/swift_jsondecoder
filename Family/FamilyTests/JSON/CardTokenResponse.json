@@ -1,0 +1,11 @@
+{
+  "paymentCards": [
+    {
+      "cardTokenData": [
+        {
+          "tokenUniqueReference": "DGENMC0000000001c04efef2798b4d90b29b849022954f6b"
+        }
+      ]
+    }
+  ]
+}
